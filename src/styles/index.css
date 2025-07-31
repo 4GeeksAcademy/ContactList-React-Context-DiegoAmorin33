@@ -1,0 +1,65 @@
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  position: relative;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.contact-details h5 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-details p {
+  margin-bottom: 4px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.contact-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-actions button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.contact-actions button:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.Save-Btn {
+  width: 100%;
+}
+
+.back-to-contacts-span {
+   cursor: pointer;
+  color: #0d6efd;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}

@@ -1,15 +1,14 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Contact from "./views/Contact";
+import ContactList from "./views/ContactList";
 import AddContact from "./views/AddContact";
 
-const App = () => {
+function App() {
   return (
     <Routes>
-      <Route path="/" element={<Contact />} />
+      <Route path="/" element={<ContactList />} />
       <Route path="/add" element={<AddContact />} />
     </Routes>
   );
-};
+}
 
 export default App;
